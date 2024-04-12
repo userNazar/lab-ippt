@@ -1,0 +1,5 @@
+services:
+  front-end-docker-test:
+    build: .
+    ports:
+      - "8000:80"
